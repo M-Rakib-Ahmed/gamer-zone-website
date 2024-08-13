@@ -56,25 +56,27 @@ margin-right: 0;
 }
 
 /* header starts here */
+.header-container{
+    background-image: url(../images/Group\ 14.png);
+}
+
 .header-main{
     justify-content: space-between;
     align-items: center;
-    border: 2px solid red;
     display: flex;
     max-width: 1000px;
     margin: 0 auto;
 }
 .header-left{
     width: 50%;
-    border: 2px solid green;
-    background-image: url("images/Group 14.png");
+   
 }
 .header-right {
     width: 50%;
-    border: 2px solid blue;
 }
 .header-main img{
-    width: 100%;
+     width: 100%;
+     
 }
 
 /* font style here */
@@ -85,6 +87,32 @@ font-weight: 600;
 .goat{
     font-size: 70px;
     font-weight: 800;  
-    color:#CD4ECA ;
+    background-image:linear-gradient(#F948B2,#8758F1);
+    background-clip: text;
+    color:transparent
+}
+
+/* button style here */
+.btn-1{
+width: 156px;
+height: 65px;
+border-radius: 40px;
+font-size: 20px;
+font-weight: 600;
+background-color:#FF42A5 ;
+color: white;
+border: none;
+margin-right: 15px;
+}
+.btn-2{
+    width: 185px;
+    height: 65px;  
+    border: none;
+    border-radius: 40px;
+    color: white;
+    background-color:#45BAF9 ;
+    font-size: 20px;
+    font-weight: 600;
+    
 }
 
