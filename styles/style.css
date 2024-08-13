@@ -1,0 +1,90 @@
+/* Font style here */
+  
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbar \desing starts heer */
+.nav-container{
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.nav-left{
+display: flex;
+align-items: center;
+font-size: 40px;
+gap: 7px;
+}
+.nav-right{
+
+}
+.nav-btn{
+ background-color:transparent;
+border: none;
+font-size: 18px;
+font-weight: 500;
+margin-right: 18px;
+
+}
+.nav-btn-follow{
+border: none;
+background-color: transparent;
+background-color: #E6E5E9;
+width: 262px;
+height: 56px;
+border-radius: 8PX;
+font-size: 18px;
+font-weight: 500;
+margin-right: 0;
+}
+
+/* header starts here */
+.header-main{
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.header-left{
+    width: 50%;
+    border: 2px solid green;
+    background-image: url("images/Group 14.png");
+}
+.header-right {
+    width: 50%;
+    border: 2px solid blue;
+}
+.header-main img{
+    width: 100%;
+}
+
+/* font style here */
+.play{
+font-size: 40px;
+font-weight: 600;
+}
+.goat{
+    font-size: 70px;
+    font-weight: 800;  
+    color:#CD4ECA ;
+}
+
