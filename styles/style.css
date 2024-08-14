@@ -143,3 +143,22 @@ font-weight: 700;
     font-size: 18px;
     font-weight: 400; 
 }
+
+.card-image-div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+    
+}
+.card-image-div img{
+    width: 100%;
+    
+}
+.p-game-tag{
+    font-size: 15px;
+    font-weight: 400; 
+}
