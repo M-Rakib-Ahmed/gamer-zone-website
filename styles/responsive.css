@@ -34,9 +34,25 @@
            
         }
 
-        /* .main-online{
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            } */
+        .card-image-div{
+         display: grid;
+         grid-template-columns: repeat(1,1fr);
+         width: 80%;
+         margin: 0 auto;
+         margin-top: 50px;
+        }
 
+        .play-main{
+        flex-direction: column;
+        width: 70%;
+        max-width: 1000px;
+        margin: 0 auto;
+        }
+        .play-left{
+           width: 100%;
+            }
+            .play-right{
+            width: 100%;
+        
+            }
  }

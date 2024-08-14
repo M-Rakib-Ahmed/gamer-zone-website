@@ -126,15 +126,48 @@ margin-right: 15px;
 
 /* online game style here */
 .online-main{
-border: 2px solid red;
+
 }
 .online-text{
     text-align: center;
-    border: 2px solid green;
+    
 }
 .online-card{
-    border: 2pzx solid blue;
+   position: relative;
 }
+
+.watch-now {
+    
+    position: absolute;
+    top: 38%;
+    left: 20%;
+    text-align: center;   
+    display: none;
+    
+}
+.watch-now p{
+    color: red;
+}
+.online-card img:hover+ .watch-now{
+    display: block;
+}
+.online-card img:hover{
+    filter: brightness(50%);
+}
+.watch-now+img:hover{
+    filter: brightness(50%);
+    display: block;
+}
+
+
+.watch-now span{
+  font-size: 30px;  
+  color: white;
+}
+/* .p-wathc{
+    color: rgb(208, 81, 81);
+    font-size: 20px;
+} */
 .h-game{
 font-size: 48px;
 font-weight: 700;
@@ -161,4 +194,58 @@ font-weight: 700;
 .p-game-tag{
     font-size: 15px;
     font-weight: 400; 
+    margin-top: 10px;
+}
+
+/* Play instantly */
+.play-main{
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1000Px;
+margin: 0 auto 100px;
+}
+
+.play-left{
+width: 40%;
+}
+.play-right{
+width: 40%;
+position: relative;
+}
+.play-right img{
+    width: 100%;
+}
+.play-right .beral{
+   position: absolute; 
+   width: 180px; 
+   height:180px ;
+   bottom:-30px;
+   left:-80px;
+   
+}
+
+/* category section style here */
+.category-main{
+    max-width: 1000px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.category-child{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    min-width: 180px;
+    margin-top: 25px;
+    
+}
+.category-child img{
+    width: 40px;
+}
+
+.category-child:hover{
+outline: 1px solid red;
 }
